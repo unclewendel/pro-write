@@ -1,0 +1,72 @@
+/* Global "Old School" Dark Theme */
+window, notebook, headerbar, box, grid, label {
+    background-color: #1a1a1a;
+    color: #00ff00;
+}
+
+/* The Menu Bar */
+menubar, menubar > item {
+    background-color: #000000;
+    color: #00ff00;
+    font-family: "Monospace";
+}
+
+menu {
+    background-color: #000000;
+    color: #00ff00;
+    border: 1px solid #00ff00;
+}
+
+menuitem:hover {
+    background-color: #00ff00;
+    color: #000000;
+}
+
+/* The Editor Area (Text View) */
+textview text {
+    background-color: #000000;
+    color: #00ff00;
+    font-family: "Monospace";
+    font-size: 12pt;
+    caret-color: #00ff00; /* Green cursor */
+}
+
+/* Scrollbars - minimal or high contrast */
+scrollbar slider {
+    background-color: #004400;
+    border: 1px solid #00ff00;
+}
+
+/* Tabs */
+notebook tab {
+    background-color: #000000;
+    color: #008800;
+    border: 1px solid #004400;
+    padding: 5px;
+}
+
+notebook tab:checked {
+    background-color: #002200;
+    color: #00ff00;
+    border-bottom: 2px solid #00ff00;
+}
+
+/* Status Bar */
+statusbar {
+    background-color: #000000;
+    color: #00ff00;
+    font-family: "Monospace";
+    border-top: 1px solid #00ff00;
+}
+
+/* Buttons (Close button on tab) */
+button {
+    background-color: transparent;
+    border: none;
+    color: #00ff00;
+}
+
+button:hover {
+    background-color: #00ff00;
+    color: #000000;
+}
