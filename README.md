@@ -1,0 +1,2 @@
+# Purpose
+I HATE EMACS
